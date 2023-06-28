@@ -1,6 +1,12 @@
-x = input("Enter deposit amount: ")
-y = input("Enter deposit term in years: ")
-x = x[]
-def bank(x, y):
-    for x in range(0, y + 1):
+X = input("Enter deposit amount: ")
+Y = input("Enter deposit term in years: ")
+X = int(X)
+Y = int(Y)
+
+def bank(X, Y):
+    return X * (1 + 0.1) ** Y
+
+
+result = bank(X, Y)
+print(result)
 
