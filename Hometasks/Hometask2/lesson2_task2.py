@@ -1,3 +1,13 @@
-fruits = ["Виноград", "Персик", "Груша", "Апельсин", "Банан", "Яблоко"]
-print(fruits[0])
-print(fruits[-1])
+year = input("ВВедите год: ")  
+year = int(year)
+def is_year_leap(year):
+    if year % 4 == 0:
+        print("Год", year, "является виокосным")
+       
+    else:
+        print("Год", year, "не является високосным")
+
+
+is_year_leap(year)
+
+

@@ -1,12 +1,13 @@
-X = input("Enter deposit amount: ")
-Y = input("Enter deposit term in years: ")
-X = int(X)
-Y = int(Y)
+x = input("Enter deposit amount: ")
+y = input("Enter deposit term in years: ")
+x = int(x)
+y = int(y)
 
-def bank(X, Y):
-    return X * (1 + 0.1) ** Y
+def bank(x, y):
+    round(2)
+    return x * (1 + 0.1) ** y
 
 
-result = bank(X, Y)
-print(result)
+result = bank(x, y)
+print(round(result, 2))
 
